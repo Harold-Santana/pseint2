@@ -18,7 +18,7 @@ FinFuncion
 
 
 
-//EJERCICIO 2
+//ejercicio_2
 //Resuelva la siguientes funciones matematicas
 funcion ejercicio_2
 	Definir a, b como reales;
@@ -54,8 +54,8 @@ FinFuncion
 
 
 
-//Ejercicio 1, calcular la cantidad de segundos que est·n incluidos en el
-//n˙mero de horas, minutos y segundos ingresados por el usuario.
+//Ejercicio 1, calcular la cantidad de segundos que est√°n incluidos en el
+//n√∫mero de horas, minutos y segundos ingresados por el usuario.
 Funcion ejercicio_4
 	Definir horas, minutos, seg  como enteros;
 	Definir horas_seg, minutos_seg, total_seg como enteros;
@@ -79,7 +79,7 @@ FinFuncion
 
 
 // Realzar un programa para ingresar el radio de un  circculo y
-// se reporte su ·rea y la longitud de la circunferencia.
+// se reporte su √°rea y la longitud de la circunferencia.
 // area = pi * radio^2 
 // longitud = 2 * pi * radio 
 Funcion ejercicio_5
@@ -121,10 +121,10 @@ FinFuncion
 
 
 
-//Ejercicio 4: Un profesor prepara tres cuestionarios para una evaluaciÛn final:
+//Ejercicio 4: Un profesor prepara tres cuestionarios para una evaluaci√≥n final:
 //A, B y C. Se sabe que se tarda 5 minutos en revisar el cuestionario A, 8min en el B
-// y 6min en el C. la cantidad de ex·menes de cada tipo se entran por teclado.
-//øCUANTAS HORAS Y MINUTOS SE TARDAR¡ EN REVISAR TODAS LAS EVALUACIONES?.
+// y 6min en el C. la cantidad de ex√°menes de cada tipo se entran por teclado.
+//¬øCUANTAS HORAS Y MINUTOS SE TARDAR√Å EN REVISAR TODAS LAS EVALUACIONES?.
 Funcion ejercicio_7
 	
 	Definir cantidadA, cantidadB, cantidadC como enteros;
@@ -160,7 +160,7 @@ FinFuncion
 	
 	
 // Una tienda ofrece un descuento del 20% sobre el total 
-// de la compra y un cliente desea saber cu·nto deber· pagar
+// de la compra y un cliente desea saber cu√°nto deber√° pagar
 // finalmente por su compra.
  Funcion ejercicio_8
 	Definir precio, descuento, precio_final como real;
@@ -216,7 +216,7 @@ FinFuncion
 
 
 //Estructuras condicionales.
-//Ingrese un n˙mero entero y reporte si es par o impar.
+//Ingrese un n√∫mero entero y reporte si es par o impar.
 Funcion ejercicio_10
 	
 	Definir num como entero;
@@ -256,8 +256,8 @@ FinFuncion
 
 
 // En un almacen se hace un 20 MOD  de descuento a los clientes
-// cuya compra es mayor a los $100. øCu·l ser· la cantidad que 
-// pagar· una persona por su compra?.
+// cuya compra es mayor a los $100. ¬øCu√°l ser√° la cantidad que 
+// pagar√° una persona por su compra?.
 Funcion ejercicio_12
 	
 	Definir compra Como Real;
@@ -279,7 +279,7 @@ FinFuncion
 
 
 
-//Leer 2 n˙meros; si son iguales que  los multiplicamos , si el primero es mayor
+//Leer 2 n√∫meros; si son iguales que  los multiplicamos , si el primero es mayor
 // que el segundo restarlos y si no que los sume.
 Funcion ejercicio_13
 	
@@ -305,7 +305,7 @@ FinFuncion
 
 	
 
-// Leer 3 n˙meros diferentes e imprimir el n˙mero mayor de los 3
+// Leer 3 n√∫meros diferentes e imprimir el n√∫mero mayor de los 3
 Funcion ejercicio_14
 	
 	Definir num1,num2,num3 Como Real;
@@ -326,10 +326,10 @@ FinFuncion
 
 
 
-// Una fruteria ofrece las manzanas con descuento seg˙n la siguiente
+// Una fruteria ofrece las manzanas con descuento seg√∫n la siguiente
 // tabla: 0-2kilos = 0 MOD  de descuento, 2.01-5kilos = 10 MOD  de descuento
 // 5.01-10kilos = 15 MOD  de descuento, 10.01 en adelante = 20 MOD  descuento
-// Determinar cu·nto pagar· una persona que compre las manzanas.
+// Determinar cu√°nto pagar√° una persona que compre las manzanas.
 Funcion ejercicio_15
 	Definir kilos,precio_kilos,precio_inicial como reales;
 	Definir descuento,precio_final como reales;
@@ -381,13 +381,13 @@ FinFuncion
 
 
 // Elaborar un programa que me muestre el siginificado de 
-// aniversario de cada dÈcada hasta los 60.
-// Bodas de Hojuelas=10aÒos
-// Bodas de Porcelana=20aÒos 
-// Bodas de Perlas=30aÒos
-// Bodas de Rubi=40aÒos
-// Bodas de Oro=50aÒos
-// Bodas de Diamante=60aÒos
+// aniversario de cada d√©cada hasta los 60.
+// Bodas de Hojuelas=10a√±os
+// Bodas de Porcelana=20a√±os 
+// Bodas de Perlas=30a√±os
+// Bodas de Rubi=40a√±os
+// Bodas de Oro=50a√±os
+// Bodas de Diamante=60a√±os
 Funcion ejercicio_17
 	Definir decada como entero;
 	Escribir "Digite una decada: ";
@@ -406,16 +406,16 @@ Funcion ejercicio_17
 		60:
 			Escribir "Bodas de Diamante";
 		De Otro Modo:
-			Escribir "Error no existe decada para ese aÒo";
+			Escribir "Error no existe decada para ese a√±o";
 	FinSegun
 FinFuncion
 
 
 
-// Hacer un programa que tenga un men˙ con las siguientes opciones:
-// OPciÛn1: Elevar un n˙mero a un exponente x
-// OpciÛn2: Sacar la raiz cuadrada de un n˙mero
-// OPciÛn3: Salir
+// Hacer un programa que tenga un men√∫ con las siguientes opciones:
+// OPci√≥n1: Elevar un n√∫mero a un exponente x
+// Opci√≥n2: Sacar la raiz cuadrada de un n√∫mero
+// OPci√≥n3: Salir
 Funcion ejercicio_18
 	Definir opcion Como Entero;
 	Escribir 'Menu';
@@ -463,7 +463,7 @@ FinFuncion
 
 
 //(Ciclo Para - Hasta - Hacer)
-//Calcular la suma de los (n) primeros n˙meros
+//Calcular la suma de los (n) primeros n√∫meros
 // S 1 + 2 +3........+N
 Funcion ejercicio_20
 	
@@ -568,7 +568,7 @@ FinFuncion
 
 
 // (Ciclo mientras - Hacer)
-// Calcular el factorial de un n˙mero mayor o igual a 0
+// Calcular el factorial de un n√∫mero mayor o igual a 0
 // N! = 1 * 2 * 3.......* N.
 Funcion ejercicio_24
 	Definir num Como Entero;
@@ -589,8 +589,8 @@ FinFuncion
 
 
 
-// Ingresar N enteros, visualizar la suma de los n˙meros pares
-// de las lista, cu·ntos n˙meros pares existen y cual es el 
+// Ingresar N enteros, visualizar la suma de los n√∫meros pares
+// de las lista, cu√°ntos n√∫meros pares existen y cual es el 
 // promedio de los numeros impares.
 Funcion ejercicio_25
 	

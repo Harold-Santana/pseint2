@@ -169,7 +169,7 @@ FinFuncion
 	Leer precio;
 	
 	descuento <- precio * 0.20;
-	// Puede ser o.20 o tambien precio * 20/100
+	// Puede ser 0.20 o tambien precio * 20/100
 	precio_final <- precio - descuento ;
 	
 	Escribir "El precio a cancelar es de: ",precio_final ;
